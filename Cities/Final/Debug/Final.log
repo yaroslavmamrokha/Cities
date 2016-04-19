@@ -1,0 +1,19 @@
+﻿Сборка начата 31.05.2015 11:18:10.
+     1>Проект "c:\Users\El\documents\visual studio 2013\Projects\Final\Final\Final.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp gamelogic.cpp server.cpp
+         server.cpp
+     1>c:\users\el\documents\visual studio 2013\projects\final\final\server.cpp(17): error C3861: bzero: идентификатор не найден
+         gamelogic.cpp
+     1>c:\users\el\documents\visual studio 2013\projects\final\final\gamelogic.cpp(80): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211): см. объявление "fopen"
+         client.cpp
+     1>c:\users\el\documents\visual studio 2013\projects\final\final\client.cpp(11): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283): см. объявление "scanf"
+     1>c:\users\el\documents\visual studio 2013\projects\final\final\client.cpp(27): error C3861: bzero: идентификатор не найден
+         Создание кода...
+     1>Сборка проекта "c:\Users\El\documents\visual studio 2013\Projects\Final\Final\Final.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:05.92
